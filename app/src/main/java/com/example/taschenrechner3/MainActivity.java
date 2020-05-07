@@ -20,7 +20,7 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 
 /**
  * @author Willi Hollatz
- * SMSB, 17952
+ * SMSB4, 17952
  * SoSe 2020
  */
 
