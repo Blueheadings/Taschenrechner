@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/sin_item"
+         android:title="sin(x)"/>
+    <item android:id="@+id/cos_item"
+        android:title="cos(x)" />
+    <item android:id="@+id/tan_item"
+        android:title="tan(x)" />
+    <item android:id="@+id/wurzel_item"
+        android:title="√(x)"/>
+</menu>

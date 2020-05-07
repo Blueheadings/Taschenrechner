@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--LayoutStyles-->
+
+    <style name="LayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/mainBackground</item>
+    </style>
+
+    <!--ButtonStyles-->
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@color/textAlt</item>
+        <item name="android:textColor">@color/mainText</item>
+        <item name="android:textSize">25sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Zahlen">
+        <item name="android:background">@color/mainBackground</item>
+    </style>
+
+    <style name="ButtonStyle.Istgleich">
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <!--Landcape normal-->
+
+    <style name="ButtonStyle.Landscape">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonStyle.Zahlen.Landscape">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonStyle.Istgleich.Landscape">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Tablet Portrait-->
+
+    <style name="ButtonStyle.sw600dp">
+        <item name="android:layout_height">130dp</item>
+    </style>
+
+    <style name="ButtonStyle.Zahlen.sw600dp">
+        <item name="android:layout_height">130dp</item>
+    </style>
+
+    <style name="ButtonStyle.Istgleich.sw600dp">
+        <item name="android:layout_height">130dp</item>
+    </style>
+
+    <!--Tablet Landscape-->
+
+    <style name="ButtonStyle.sw600dp.Landscape">
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="ButtonStyle.Zahlen.sw600dp.Landscape">
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="ButtonStyle.Istgleich.sw600dp.Landscape">
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <!--TextViewStyles-->
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/mainBackground</item>
+        <item name="android:textColor">@color/mainText</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+
+    <style name="TextViewStyle.Landscape">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="TextViewStyle.sw600dp">
+        <item name="android:textSize">70sp</item>
+    </style>
+
+    <style name="TextViewStyle.sw600dp.Landscape">
+        <item name="android:textSize">35sp</item>
+    </style>
+
+</resources>

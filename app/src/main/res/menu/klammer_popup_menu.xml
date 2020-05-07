@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/KlammerAuf_item"
+        android:title="("/>
+    <item android:id="@+id/KlammerZu_item"
+        android:title=")"/>
+</menu>

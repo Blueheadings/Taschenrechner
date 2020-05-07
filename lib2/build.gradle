@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('C:/Users/Willi/AndroidStudioProjects/Taschenrechner3/app/libs/exp4j-0.4.8.jar')
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
